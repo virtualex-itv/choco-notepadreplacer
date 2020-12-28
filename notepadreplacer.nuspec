@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>notepadreplacer</id>
+    <version>1.2.0</version>
+    <owners>virtualex</owners>
+    <packageSourceUrl>https://github.com/virtualex-itv/choco-notepadreplacer/tree/main/</packageSourceUrl>
+    <title>Notepad Replacer</title>
+    <authors>Binary Fortress</authors>
+    <projectUrl>https://www.binaryfortress.com/NotepadReplacer/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/virtualex-itv/choco-notepadreplacer/e913f7e32ac88eaa04fe37aeff5fd771ea9bae4f/_icon/notepadrepalcer.png</iconUrl>
+    <copyright>Copyright © 2007-2020 Binary Fortress Software</copyright>
+    <licenseUrl>https://www.binaryfortress.com/NotepadReplacer/License/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.binaryfortress.com/NotepadReplacer/TestedApps/</docsUrl>
+    <mailingListUrl>https://www.binaryfortress.com/Support/#contact</mailingListUrl>
+    <tags>notepad replacer</tags>
+    <summary>Replace Notepad the Easy Way</summary>
+    <description>
+---
+
+### Package Parameters
+* `/NOTEPAD` - Specifies the path to the executable for the program you wish to replace Notepad with.
+Example: `choco install notepadreplacer --params "/NOTEPAD:C:\Program Files\Notepad++\notepad++.exe"`
+* **If the parameter is not specified, the installation will fail and exit**
+
+---
+
+### Overview of Notepad Replacer
+Do you use a Notepad alternative, like Notepad++ or Notepad2? Notepad Replacer will allow you to replace the default Windows version of Notepad with whatever alternative you would like to use.
+
+* **No System Files Replaced**
+* **No Background Processes**
+* **No Security Warnings**
+* **Completely Free**
+
+Please see the [**README**](https://github.com/virtualex-itv/choco-notepadreplacer) for chocolatey-test-environment installation.
+	</description>
+    <releaseNotes>https://www.binaryfortress.com/NotepadReplacer/ChangeLog/</releaseNotes>
+	<dependencies>
+      <dependency id="" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
